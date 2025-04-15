@@ -10,6 +10,11 @@ Route::get('/login', function () {
     return view('login.index');
 });
 
+Route::get('/regist', function () {
+    return view('regist.index');
+});
+
+
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
