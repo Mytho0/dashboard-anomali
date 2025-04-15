@@ -18,14 +18,14 @@
         {{-- <div class="flex flex-col items-start self-stretch bg-[#FFFFFF] h-[1024px]"> --}}
             <div class="flex items-center">
                 <div
-                    class="w-1/2 flex flex-col shrink-0 items-start bg-[url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/JLPlDhJ5JR/81xr1xg8_expires_30_days.png')] bg-cover bg-center pt-[440px] pb-[440px] pl-[107px] pr-[176px] mr-[115px]">
-                    <span class="text-[#FFFFFF] text-[57px] font-bold">
+                    class="w-1/2 flex flex-col shrink-0 items-start bg-[url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/JLPlDhJ5JR/81xr1xg8_expires_30_days.png')] bg-cover h-screen relative">
+                    <span class="text-[#FFFFFF] text-4xl font-bold inset-0 flex justify-center items-center absolute">
                         Selamat Datang Kembali!
                     </span>
                 </div>
-                <div class="flex flex-col shrink-0 items-start w-1/2">
-                    <div class="flex flex-col items-start mb-[41px]">
-                        <span class="text-[#000000] text-[57px] font-bold mb-[13px]">
+                <div class="flex flex-col shrink-0 items-start w-1/2 h-screen p-10">
+                    <div class="flex flex-col gap-4 items-start mb-[41px]">
+                        <span class="text-[#000000] text-4xl font-bold ">
                             Login
                         </span>
                         <span class="text-[#000000] text-[16px]">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="flex flex-col items-center mb-[41px]">
                         <div class= "flex flex-col items-start">
-                            <span class="text-[#000000] text-[16px] w-[71px]">
+                            <span class="text-[#000000] text-md w-[71px] font-bold 	">
                                 Email
                             </span>
                             <div class="w-[505px] h-[55px] rounded-[8px]">
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-start">
-                            <span class="text-[#000000] text-[16px] w-[71px]">
+                            <span class="text-[#000000] text-md w-[71px] font-bold">
                                 Password
                             </span>
                             <div class="bg-[#D9D9D9] w-[505px] h-[55px] rounded-[8px]">
@@ -57,13 +57,14 @@
                     <div class="flex items-center mb-[41px]">
                         <div class="flex shrink-0 items-center mr-[170px]">
                             <div>
-                                <input type="checkbox" class="bg-[#D9D9D9] w-[30px] h-[30px] mr-[15px] rounded-[4px]" />
+                                <input type="checkbox" class=" bg-[#D9D9D9] w-[20px] h-[20px] mr-[15px] rounded-[4px]" />
                             </div>
-                            <span class="text-[#000000] text-[16px]">
+                            <span class="text-[#000000] text-sm">
                                 Remember Me?
                             </span>
                         </div>
-                        <span class="text-[#000000] text-[16px]">
+                        <span class="text-[#000000] text-sm">
+							
                             Forgot Password?
                         </span>
                     </div>
